@@ -9,3 +9,77 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background: white;
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+  }
+  h1 {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    text-shadow: 1px 1px 1px violet;
+  }
+  
+  li {
+    border: 1px solid purple;
+    padding: 10px;
+    width: 280px;
+    list-style: none; /*quitar puntos negrios d ¡e la lista*/
+    background: violet;
+  }
+  
+  input {
+    border: none;
+    width: 260px;
+    background: violet;
+    cursor: pointer;
+  }
+  
+  .numTareas {
+    margin-left: 5px;
+    margin-top: 8px;
+    font-size: 10px;
+    text-align: left;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: left;
+    font-family: "Courier New", Courier, monospace;
+    text-shadow: 1px 1px 1px white;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  
+  .container {
+    border: 1px solid grey;
+    margin: 10px;
+    padding: 30px;
+    box-shadow: 5px 5px purple;
+  }
+  /* .icon {
+    margin-left: 30px;
+    cursor: pointer;
+  } */
+  th {
+    text-align: left;
+    font-family: "Courier New", Courier, monospace;
+    text-shadow: 1px 1px 1px white;
+    font-size: 15px;
+    padding-top: 30px;
+  }
+  
+  td {
+    border: 1px solid purple;
+    text-align: left;
+    padding: 10px;
+    width: 280px;
+    list-style: none; /*quitar puntos negrios d ¡e la lista*/
+    background: violet;
+  }
+  th {
+    padding-top: 0px;
+  }
+
